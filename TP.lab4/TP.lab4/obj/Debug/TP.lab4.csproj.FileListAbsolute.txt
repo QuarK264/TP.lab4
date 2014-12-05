@@ -1,0 +1,6 @@
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\bin\Debug\TP.lab4.exe.config
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\bin\Debug\TP.lab4.exe
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\bin\Debug\TP.lab4.pdb
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\obj\Debug\TP.lab4.csprojResolveAssemblyReference.cache
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\obj\Debug\TP.lab4.exe
+C:\Users\1\Documents\TP.lab4\TP.lab4\TP.lab4\obj\Debug\TP.lab4.pdb
