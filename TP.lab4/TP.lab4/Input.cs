@@ -2,11 +2,18 @@
 {
     using System;
 
+    /// <summary>
+    /// Осуществляет ввод данных в программу обрабатывая исключения
+    /// </summary>
     class Input
     {
-        public static double InputX(string VariableName)
+        /// <summary>
+        /// Ввод корректного x
+        /// </summary>
+        /// <returns>X, не вызвавший не одного исключения</returns>
+        public static double InputX()
         {
-            Console.Write("Введите {0}:", VariableName);
+            Console.Write("Введите x:");
             string strValue = Console.ReadLine();
             double Value;
             if (!double.TryParse(strValue, out Value))
@@ -19,9 +26,14 @@
             }
 
         }
-        public static int InputK(string VariableName)
+
+        /// <summary>
+        /// Ввод корректного k
+        /// </summary>
+        /// <returns>K, не вызвавший не одного исключения</returns>
+        public static int InputK()
         {
-            Console.Write("Введите {0}:", VariableName);
+            Console.Write("Введите k:");
 
             string strValue = Console.ReadLine();
             int Value;

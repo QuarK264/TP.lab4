@@ -4,6 +4,12 @@
 
     class Program
     {
+        /// <summary>
+        /// Метод рассчитывает сумму
+        /// </summary>
+        /// <param name="x">Аргумент итого члена суммы</param>
+        /// <param name="k">Число суммирований</param>
+        /// <returns>Сумма ряда</returns>
         private static string SumResult(double x, int k)
         {
             double Sum = 0;
@@ -21,12 +27,15 @@
             return Sum.ToString();
         }
 
-        static void Main(string[] args)
+        /// <summary>
+        /// Точка входа в программу, выводит на экран случившиеся исключения
+        /// </summary>
+        static void Main()
         {
             try
             {
-                double x = Input.InputX("x");
-                int k = Input.InputK("k");
+                double x = Input.InputX();
+                int k = Input.InputK();
                 if (x == 0)
                 {
                     throw new DivideByZeroException("На ноль делить нельзя.");
